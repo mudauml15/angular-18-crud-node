@@ -39,10 +39,10 @@ import { Product } from '../../../models/product.model';
                      class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded transition duration-200">
                     Edit
                   </a>
-                  <button (click)="deleteProduct(product.id)"
+                  <!-- <button (click)="deleteProduct(product.id)"
                           class="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded transition duration-200">
                     Delete
-                  </button>
+                  </button> -->
                 </div>
               </td>
             </tr>
