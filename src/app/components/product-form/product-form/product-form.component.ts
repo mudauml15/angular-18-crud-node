@@ -83,6 +83,7 @@ import { Product } from '../../../models/product.model';
 })
 export class ProductFormComponent implements OnInit {
   product: Product = {
+    id: 0,
     name: '',
     description: '',
     price: 0,
